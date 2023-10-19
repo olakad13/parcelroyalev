@@ -1,5 +1,9 @@
 :root {
     --accent-color: #354fe7;
+    --lightgray: rgba(223, 220, 220, 0.548);
+    --primaryBlue: rgb(0, 94, 184);
+    --primaryWhite: #ffffff;
+    --oxfordBlue: #081f33;
 }
 
 *,
@@ -83,6 +87,27 @@ body {
     line-height: 1.56;
     font-size: 18px;
 }
+
+.footer {
+    margin-top: 2rem;
+    background-color: var(--lightgray);
+    min-height: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    row-gap: .8rem;
+    column-gap: 2rem;
+    padding: 0 .5rem;
+    font-size: .85rem;
+  }
+
+  .footer a {
+    color: var(--primaryBlue);
+    font-weight: 600;
+    text-decoration: none;
+  }
 
 @media screen and (max-width: 900px) {
 

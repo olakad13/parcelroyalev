@@ -4,6 +4,7 @@
     --primaryBlue: rgb(0, 94, 184);
     --primaryWhite: #ffffff;
     --oxfordBlue: #081f33;
+    --primaryFontFamily: 'Noto Sans Bengali', sans-serif;
 }
 
 *,
@@ -107,6 +108,7 @@ body {
     color: var(--primaryBlue);
     font-weight: 600;
     text-decoration: none;
+    font-family: var(--primaryFontFamily);
   }
 
 @media screen and (max-width: 900px) {
